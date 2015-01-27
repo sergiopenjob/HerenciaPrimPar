@@ -6,6 +6,10 @@ public class Primos extends Numeros {
 
     private ArrayList<Integer> primos_cal = new ArrayList();
 
+    public Primos(int fin) {
+        super(fin);
+    }
+    
     public Primos(int ini, int fin) {
         super(ini, fin);
     }

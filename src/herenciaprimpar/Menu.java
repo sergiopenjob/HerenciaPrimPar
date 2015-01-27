@@ -59,7 +59,16 @@ public class Menu {
                     primos.calcular();
                     primos.getPrimos_cal();
                     continuar();
-
+                    limpiarPantalla();
+                    
+                    System.out.println("Esta vez solo escriba el numero de fin");
+                    fin = scn.nextInt();
+                    Primos primos2 = new Primos(fin);
+                    primos2.calcular();
+                    primos2.getPrimos_cal();;
+                    
+                    continuar();
+                    
                     break;
             }
         } catch (Exception ex) {
